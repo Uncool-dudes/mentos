@@ -3,11 +3,9 @@ import React, { useState } from 'react';
 import { PlayCircle, Share2, Clock, Music } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
-interface SpotifyCardProps {
-    url: string;
-}
 
-const SpotifyCard = ({ url }: SpotifyCardProps) => {
+
+const SpotifyCard = () => {
     const [trackData] = useState( {
         title: "Bohemian Rhapsody",
         artist: "Queen",

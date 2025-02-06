@@ -19,7 +19,7 @@ export default function Home () {
                     <Component />
                 </div>
                 <div className="basis-3/5 grid grid-cols-3 gap-5">
-                    <SpotifyCard url={''} />
+                    <SpotifyCard />
                     <Skeleton className="aspect-square w-full" />
                     <Skeleton className="aspect-square w-full" />
                 </div>
